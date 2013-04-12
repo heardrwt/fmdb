@@ -18,6 +18,7 @@
 }
 
 @property (atomic, retain) NSString *path;
+@property (atomic, readonly) FMDatabase *db; //warning: don't use this unless you know what you are doing. general access to the db should be done via the below block accepting methods.
 
 + (id)databaseQueueWithPath:(NSString*)aPath;
 - (id)initWithPath:(NSString*)aPath;

@@ -20,6 +20,7 @@
 @implementation FMDatabaseQueue
 
 @synthesize path = _path;
+@synthesize db = _db;
 
 + (id)databaseQueueWithPath:(NSString*)aPath {
     
