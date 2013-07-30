@@ -22,7 +22,7 @@
 @synthesize path = _path;
 @synthesize db = _db;
 
-+ (id)databaseQueueWithPath:(NSString*)aPath {
++ (instancetype)databaseQueueWithPath:(NSString*)aPath {
     
     FMDatabaseQueue *q = [[self alloc] initWithPath:aPath];
     
@@ -31,7 +31,7 @@
     return q;
 }
 
-- (id)initWithPath:(NSString*)aPath {
+- (instancetype)initWithPath:(NSString*)aPath {
     
     self = [super init];
     
