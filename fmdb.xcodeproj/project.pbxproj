@@ -49,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		136244E41717DD1500D30C4B /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		136244E41717DD1500D30C4B /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/FMDB.h; sourceTree = "<group>"; };
 		32A70AAB03705E1F00C91783 /* fmdb_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmdb_Prefix.pch; sourceTree = "<group>"; };
 		831DE6FD175B7C9C001F7317 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* fmdb */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fmdb; sourceTree = BUILT_PRODUCTS_DIR; };
